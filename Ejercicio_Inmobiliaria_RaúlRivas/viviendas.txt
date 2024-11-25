@@ -1,0 +1,22 @@
+Tipo: Piso
+Zona: Centro
+Dirección: Calle San Gerónimo
+Dormitorios: 1
+Precio: 250 €
+Tamaño: 152 m²
+Extras: Garaje
+Foto: piso.jpg
+Observaciones: Muy buena calidad y zona!!!
+Beneficio: 87.50 €
+
+Tipo: Chalet
+Zona: Chana
+Dirección: calle Goleta, 7
+Dormitorios: 4
+Precio: 355 €
+Tamaño: 200 m²
+Extras: Piscina, Jardín, Garaje
+Foto: chalet.jpg
+Observaciones: Un ambiente extraordinario y buen precio!!
+Beneficio: 88.75 €
+
