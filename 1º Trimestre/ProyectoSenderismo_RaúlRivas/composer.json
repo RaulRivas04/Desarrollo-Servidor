@@ -1,0 +1,13 @@
+{
+    "name": "raulrivas/senderismo",
+    "description": "Proyecto Senderismo",
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "illuminate/pagination": "^9.52"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
