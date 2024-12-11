@@ -1,13 +1,19 @@
 {
-    "name": "raulrivas/senderismo",
-    "description": "Proyecto Senderismo",
-    "require": {
-        "vlucas/phpdotenv": "^5.5",
-        "illuminate/pagination": "^9.52"
-    },
+    "name": "raul/senderismo",
+    "description": "Rutas web para senderismo",
+    "type": "project",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "Raul\\Senderismo\\": "src/"
         }
-    }
+    },
+    "authors": [
+        {
+            "name": "Raúl Rivas",
+            "email": "raulrivasortega94@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
 }
