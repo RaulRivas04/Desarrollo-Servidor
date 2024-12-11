@@ -1,9 +1,15 @@
 <?php
-require_once '../vendor/autoload.php';
-require_once '../config/db.php';
+session_start();
 
-use App\Router;
+$request = $_SERVER['REQUEST_URI'];
+$partes = explode('/', trim($request, '/'));
 
-$router = new Router();
-$router->run();
-?>
+$controlador = $partes[0] ?? 'ruta';
+$accion = $partes[1] ?? 'listarRutas';
+$parametros = array_slice($partes, 2);
+
+require_once "controllers/{$controlador}Controller.php";
+$claseControlador = ucfirst($controlador) . 'Controller';
+$instancia = new $claseControlador();
+
+call_user_func_array([$instancia, $accion], $parametros);
