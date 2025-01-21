@@ -1,0 +1,27 @@
+{
+    "name": "raulrivas/proyecto-tienda_raulrivas",
+    "autoload": {
+        "psr-4": {
+            "Raulrivas\\ProyectoTiendaRaulrivas\\": "src/",
+            "Controllers\\": "./src/Controllers",
+            "Models\\": "./src/Models",
+            "Lib\\": "./src/Lib",
+            "Views\\": "./src/Views",
+            "Repositories\\": "./src/Repositories",
+            "Services\\": "./src/Services",
+            "Routes\\": "./src/Routes",
+            "DBTienda\\": "DBTienda/"
+        },
+        "files": ["src/Utils.php"
+    ]
+    },
+    "authors": [
+        {
+            "name": "Raúl Rivas",
+            "email": "raulrivasortega94@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "raulrivas/tienda_examen_raulrivas",
+    "autoload": {
+        "psr-4": {
+            "Lib\\": "src/Lib/",
+            "Controllers\\": "src/Controllers/",
+            "Repositories\\": "src/Repositories/",
+            "Models\\": "src/Models/",
+            "Routes\\": "src/Routes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Raúl Rivas",
+            "email": "raulrivasortega94@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
